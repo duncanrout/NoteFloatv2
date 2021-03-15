@@ -1,0 +1,6 @@
+-Clean up Code
+-Format Pages
+
+
+-ChatPage chat container
+-Learn and implement chat components

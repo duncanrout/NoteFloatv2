@@ -1,18 +1,14 @@
 import React from 'react';
+import { Image } from 'react-bootstrap';
 import styled from 'styled-components';
-const GridWrapper = styled.div`
-  display: grid;
-  grid-gap: 10px;
-  margin-top: 1em;
-  margin-left: 6em;
-  margin-right: 6em;
-  grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: minmax(25px, auto);
+
+const Back = styled.div`
+  background - image: "/img/boat.jpg"
 `;
 
 export const HomePage = (props) => (
-        <GridWrapper>
-            <p>Temp</p>
-            <p>Temp2</p>
-        </GridWrapper>
+    
+        <Back>
+            <Image src="/img/boat.jpg" fluid />
+        </Back>
 )
