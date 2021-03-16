@@ -1,14 +1,18 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
-import styled from 'styled-components';
+import './HomePage.css';
 
-const Back = styled.div`
-  background - image: "/img/boat.jpg"
-`;
 
 export const HomePage = (props) => (
     
-        <Back>
-            <Image src="/img/boat.jpg" fluid />
-        </Back>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Hello, world!</h1>
+                <p>...</p>
+            </div>
+        </div>
+    </body>
+
+    
+
 )

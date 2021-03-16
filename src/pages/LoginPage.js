@@ -1,22 +1,13 @@
 import React from "react";
-import styled from 'styled-components';
+import './RegisterPage.css';
 
-const Box = styled.form`
-  padding-top: 200px;
-  padding-right: 200px;
-  padding-bottom: 50px;
-  padding-left: 200px;
-  position: relative;
-`;
-
-const Title = styled.h1`
-  padding-bottom: 50px;
-`;
 
 export const LoginPage = (props) => (
 
-    <Box>
-        <Title>Log in</Title>
+    <div id="Box">
+        <div id="Title">
+            <h1>Login</h1>
+        </div>
 
         <div className="form-group">
             <label>Email</label>
@@ -39,5 +30,5 @@ export const LoginPage = (props) => (
         <p className="forgot-password text-right">
             Forgot <a href="#">password?</a>
         </p>
-    </Box>
+    </div>
 )
