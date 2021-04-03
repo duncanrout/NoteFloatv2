@@ -1,6 +1,9 @@
 import React from 'react';
 import './ChatPage.css';
 
+import { ChatBox } from '../components/ChatBox';
+import { Widget } from 'react-chat-widget';
+
 export const ChatPage = (props) => (
 	
     <div>
@@ -19,7 +22,9 @@ export const ChatPage = (props) => (
 
       <div class="container-fluid">
         <h1 class="mt-4">Chat</h1>
-        <p>Blah Blah Blah</p>
+                    <p>Blah Blah Blah</p>
+
+                    <Widget/>
         
       </div>
     </div>
