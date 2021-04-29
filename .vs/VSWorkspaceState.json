@@ -3,9 +3,10 @@
     "",
     "\\public",
     "\\src",
+    "\\src\\assets",
     "\\src\\components",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\pages\\HomePage.js",
+  "SelectedNode": "\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }

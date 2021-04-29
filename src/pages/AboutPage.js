@@ -3,33 +3,24 @@ import CardColumns from 'react-bootstrap/CardColumns';
 import React from 'react';
 
 export const AboutPage = () => (
-    
     <body>
         <CardColumns>
             <Card>
-                
                 <Card.Body>
-                    <Card.Title>Card 1</Card.Title>
+                    <Card.Title>Created by Duncan Rout</Card.Title>
                     <Card.Text>
-                        This is NoteFloat! About...
-        </Card.Text>
+                        ...
+                    </Card.Text>
                 </Card.Body>
             </Card>
             <Card>
-
                 <Card.Body>
-                    <Card.Title>Card 2</Card.Title>
+                    <Card.Title>About</Card.Title>
                     <Card.Text>
-                        temp temp temp
-        </Card.Text>
+                        about about about
+                    </Card.Text>
                 </Card.Body>
             </Card>
-            
-      
-            
-            
-            
         </CardColumns>
-
 </body>
 )

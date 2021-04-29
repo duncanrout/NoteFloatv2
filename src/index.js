@@ -5,6 +5,21 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
+const Pusher = require("pusher");
+
+const pusher = new Pusher({
+    appId: "1185475",
+    key: "8f672c2c33f0c373e1b6",
+    secret: "16c4e31c3d6e8cdce6f7",
+    cluster: "us2",
+    useTLS: true
+});
+
+pusher.trigger("my-channel", "my-event", {
+    message: "hello world"
+});
+
+
 ReactDOM.render(
    
   <React.StrictMode>
